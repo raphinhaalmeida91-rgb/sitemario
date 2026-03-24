@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</body>
+</html>
+  <title>Bazar Solidário</title>
+
+  <style>
+    /* ===== CONFIGURAÇÃO GERAL ===== */
+    body {
+      margin: 0;
+      font-family: Arial; /* troque a fonte aqui */
+      background-color: #f5f5f5; /* cor de fundo */
+    }
+
+    /* ===== TÍTULO ===== */
+    h1 {
+      font-size: 28px; /* tamanho do título */
+      margin-left: 20px;
+    }
+
+    /* ===== TEXTO PEQUENO ===== */
+    .subtitulo {
+      margin-left: 20px;
+      font-size: 18px;
+    }
+
+    /* ===== CONTAINER PRINCIPAL ===== */
+    .linha {
+      display: flex;              /* deixa lado a lado */
+      align-items: flex-start;    /* alinha no topo */
+      gap: 40px;                  /* espaço entre mapa e texto */
+      padding: 20px;
+    }
+
+    /* ===== MAPA ===== */
+    .mapa {
+      width: 50%; /* controla tamanho do mapa */
+
+      /* você pode testar:
+      width: 40%;
+      width: 60%;
+      */
+    }
+
+    /* ===== TEXTO ===== */
+    .texto {
+      width: 50%;        /* largura do texto */
+      font-size: 18px;   /* tamanho da letra */
+      line-height: 1.6;  /* espaçamento entre linhas */
+      color: #333;       /* cor do texto */
+
+      /* opções extras:
+      text-align: justify;
+      text-align: center;
+      */
+    }
+
+    /* ===== PARÁGRAFOS ===== */
+    .texto p {
+      margin-bottom: 15px; /* espaço entre parágrafos */
+    }
+
+    /* ===== RESPONSIVO (CELULAR) ===== */
+    @media (max-width: 800px) {
+      .linha {
+        flex-direction: column; /* empilha no celular */
+      }
+
+      .mapa, .texto {
+        width: 100%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+<h1>A sua ajuda nos leva a mais pessoas</h1>
+
+<p class="subtitulo">
+  Envie sua doação no nosso endereço:
+</p>
+
+<div class="linha">
+
+  <div class="mapa">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.08108196886843!2d-45.89140511312929!3d-23.222740875595523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a8e27cbf0a5%3A0xa7c606035272c426!2zQyAmIFMgQ09ORkVDw4fDlUVT!5e0!3m2!1spt-BR!2sbr!4v1774013787368!5m2!1spt-BR!2sbr" 
+   width="600"
+    height="450"
+     style="border:0;" 
+     allowfullscreen=""
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe> <!-- COLE SEU MAPA AQUI -->
+    <!-- exemplo: iframe do Google Maps -->
+  </div>
+
+  <div class="texto">
+
+    Nosso bazar online nasce da vontade de ajudar e de fazer a diferença na vida de quem mais precisa. Tudo começa com as doações recebidas: roupas, calçados e outros itens em bom estado enviados por pessoas que acreditam na solidariedade e no cuidado com o próximo.
+
+Após a coleta, nossa equipe realiza uma triagem cuidadosa, separando cada item com atenção e carinho, garantindo que tudo esteja em boas condições para uso. Em seguida, esses produtos são disponibilizados em nosso bazar online por valores acessíveis, permitindo que mais pessoas encontrem o que precisam enquanto também contribuem com essa causa.
+
+Toda a renda arrecadada é revertida para ações sociais. Com esse apoio, conseguimos montar kits, organizar campanhas e levar ajuda de forma direta a pessoas e famílias em situação de vulnerabilidade.
+
+Por fim, realizamos a entrega por meio de ações sociais, onde cada doação se transforma em apoio real. Mais do que entregar itens, buscamos levar dignidade, cuidado e esperança a cada pessoa atendida.
+
+Assim, cada gesto de doação percorre um caminho de transformação, conectando solidariedade a quem mais precisa e mostrando que, juntos, podemos fazer a diferença.
+
+  </div>
+
+</div>
+
+</body>
+</html>
